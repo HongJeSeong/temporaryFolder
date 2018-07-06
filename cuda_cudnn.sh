@@ -31,5 +31,5 @@ sudo apt-get -y upgrade cuda
 sudo tar -xzvf cudnn-9.0-linux-x64-v7.1.tgz
 sudo mv cuda/include/* /usr/local/cuda-9.0/include
 sudo mv cuda/lib64/* /usr/local/cuda-9.0/lib64
-rm cudnn-9.0-linux-x64-v7.1.tgz
-rm -rf cuda
+sudo rm cudnn-9.0-linux-x64-v7.1.tgz
+sudo rm -rf cuda
